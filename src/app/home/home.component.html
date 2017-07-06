@@ -1,0 +1,14 @@
+<div class="home-page">
+
+  <div class="banner">
+    <div class="container">
+      <h1 class="logo-font">Trade</h1>
+      <p>A tool to look up products.</p>
+    </div>
+  </div>
+
+  <div class="container page">
+    <input type="text" class="home-search" [(ngModel)]="searchString" >
+    <button class="home-search" routerLink="/results/{{searchString}}">Search</button>
+  </div>
+</div>

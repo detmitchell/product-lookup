@@ -1,0 +1,8 @@
+.nav-link{
+  cursor:pointer;
+}
+
+input.home-search{
+  color: #fff;
+  background-color: #000;
+}
