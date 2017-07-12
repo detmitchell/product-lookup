@@ -1,10 +1,13 @@
 <div id='results-container' class="container page">
     <div class="horizontal-card row" *ngFor="let result of results">
       <div class="card-image col-xs-3">
-          <img src="https://angular.io/assets/images/logos/angular/angular.png">
+          <img src="{{result.imageUrl}}">
       </div>
       <div class="card-content col-xs-9">
           <span class="card-title">{{result.name}}</span>
+          <span class="card-price">${{result.price}}</span>
+          <p class="card-description">{{result.description}}</p>
+          <button class="card-button"> Go! </button>
       </div>
     </div>
 </div>

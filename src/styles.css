@@ -37,3 +37,18 @@ button{
 .card-title{
   font-size: 25px;
 }
+
+.card-price{
+  font-size: 25px;
+  float: right;
+}
+
+.card-button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: #000;
+  background-color: #5CB85C;
+  height: 50px;
+  width: 50px;
+}

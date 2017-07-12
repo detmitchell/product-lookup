@@ -29,10 +29,3 @@ export class ResultsComponent implements OnInit {
     })
   }
 }
-// this.searchService.search(this.keyString)
-    // .subscribe(
-    //   data => this.router.navigateByUrl('/results'),
-    //   err => {
-    //     console.error(err)
-    //   }
-    // );

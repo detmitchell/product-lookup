@@ -3,6 +3,23 @@
 }
 
 input.home-search{
-  color: #fff;
-  background-color: #000;
+  color: #000;
+  background-color: #fff;
+  margin-top: 10%;
+  width: 60%;
+  border-radius: 9px;
+  border: 0;
+  font-size: 20px;
+  padding-left: 8px;
+}
+
+input.home-search:focus{
+  outline:0;
+}
+
+
+button{
+  border-radius: 9px;
+  border: 0;
+  font-size: 20px;
 }
